@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
+    color: #2b2b2b;
 }
 
 img {
@@ -15,6 +16,13 @@ img {
 
 body {
     background: #C0C0C0;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .wrap {
@@ -22,33 +30,101 @@ body {
     margin: 0 auto;
 }
 
-a {
-    color: #2b2b2b;
-    text-decoration: none;
-}
-
 .title {
     font-size: 25px;
     text-align: center;
-    margin-top: 15px;
+    padding-top: 15px;
     transition: .2s;
-    margin-bottom: 25px;
 }
 
-.title:hover {
-    transform: scale(105%);
+.my-photo {
+    width: 400px;
+    border-radius: 10px;
 }
 
-.gallery {
+.img-block {
+    width: 50%;
+    /* flex-direction: column; */
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
-.gallery__img {
-    height: 200px;
-    width: 300px;
-    border-radius: 7px;
-    margin-top: 20px;
+.text-block {
+    width: 50%;
 }
+
+.img-block__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-block__main-text {
+    max-width: 800px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+nav {
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.nav__item {
+    text-decoration: none;
+}
+
+.text-block__can {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+footer {
+    background: #232323;
+}
+
+footer {
+    height: 5vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__box__item>a {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.footer__box {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* html, body {
+    height: 100%;
+    line-height: 1;
+}
+
+.wrap {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+} */

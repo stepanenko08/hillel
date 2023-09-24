@@ -4,26 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Homework 1</title>
+    <title>Homework 2</title>
 </head>
 <body>
     <div class="wrap">
-        <h1 class="title"><a href="gallery.html">Посилання на галерею</a></h1>
-        <ol>
-            <li class="commands__items">$ git clone https://github.com/stepanenko08/hillel.git</li>
-            <li class="commands__items">$ git remote</li>
-            <li class="commands__items">$ git remote -v</li>
-            <li class="commands__items">$ git remote add  halo https://github.com/stepanenko08/hillel.git</li>
-            <li class="commands__items">$ git remote -v</li>
-            <li class="commands__items">$ git add .</li>
-            <li class="commands__items">$ git commit -m "Initial commit"</li>
-            <li class="commands__items">$ git push origin --all</li>
-            <li class="commands__items">$ git branch</li>
-            <li class="commands__items">$ git branch homework1</li>
-            <li class="commands__items">$ git checkout homework1</li>
-            <title>asd</title>
-        </ol>
+        <header>
+            <h1 class="title">Резюме</h1>
+            <h5 class="subtitle">Навігація по сайту</h5>
+            <nav>
+                <a href="#main-text" class="nav__item">Про мене</a>
+                <a href="#can" class="nav__item">Що я вмію</a>
+                <a href="#footer" class="nav__item">Соц мережі</a>
+            </nav>
+        </header>
+        <main>
+            <div class="resume">
+                <div class="img-block">
+                    <div class="img-block__imh-box">
+                        <img class="my-photo" src="img/my-photo.jpg" alt="">
+                        <h6 class="img-block__subtitle">(моє фото)</h6>
+                    </div>
+                </div>
+                <div class="text-block">
+                    <section>
+                        <p id="main-text" class="text-block__main-text">Мене звати Степаненко Владислав, мені 15 років (народився 8 липня 2008 року) та я навчаюся на Front-end developer'а. Навчаюся в українській онлайн-школі програиування Hillel на курсі ,,Front-end 2 рівень''. Взагалі я почав навчатися в сфері IT в 2021 році, тоді я пішов на курси ,,Основи html/css''. Після них пішов на курси по JavaScript, але я пішов з них бо мені не подобався вчитель. В планах у мене розвиватися в напрямку Front-end, після цих курсів вивчити JavaScript та React.<br>А у школі я навчаюся в 9 класі та планую закінчити всі 11 класів.
+                        </p>
+                    </section>
+                    <section>
+                        <h2 id="can" class="text-block__can">Що я вже вивчив:</h2>
+                        <ol>
+                            <li class="can__item">Html/css</li>
+                            <li class="can__item">Bootstrap</li>
+                            <li class="can__item">Css animation</li>
+                            <li class="can__item">JavaScript (в процесі)</li>
+                        </ol>
+                    </section>
+                </div>
+            </div>
+        </main>
     </div>
+    <footer id="footer">
+        <div class="footer__box">
+            <div class="footer__box__item"><a href="https://www.instagram.com/stepanenko_08/">Instagram</a></div>
+            <div class="footer__box__item"><a href="https://t.me/stepanenko_vlad">Telegram</a></div>
+            <div class="footer__box__item"><a href="https://github.com/stepanenko08">GitHub</a></div>
+            <div class="footer__box__item"><a href="mailto:stepanenkovlad2008@gmail.com">Mail</a></div>
+            <div class="footer__box__item"><a href="tel:ххх-хх-хх">Phone number</a></div>
+        </div>
+    </footer>
 
 
 </body>
