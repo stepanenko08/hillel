@@ -15,8 +15,8 @@ form {
 
 input {
     border: #c9c9c9 1px solid;
-    width: 400px;
-    height: 25px;
+    /* width: 400px;
+    height: 25px; */
     border-radius: 2px;
 }
 
