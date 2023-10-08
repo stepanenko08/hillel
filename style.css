@@ -15,8 +15,9 @@ form {
 
 input {
     border: #c9c9c9 1px solid;
-    /* width: 400px;
-    height: 25px; */
+    width: 80%;
+    /* width: 400px; */
+    /* height: 25px; */
     border-radius: 2px;
 }
 
@@ -24,6 +25,7 @@ textarea {
     border: #c9c9c9 1px solid;
     border-radius: 2px;
     resize: none;
+    width: 80%;
 }
 
 .submit-btn {
@@ -31,4 +33,12 @@ textarea {
     height: 40px;
     background-color: #333;
     color: #f6f6f6;
+}
+
+/* .input-box {
+    width: 400px;
+} */
+
+.parent-box {
+    width: 400px;
 }
