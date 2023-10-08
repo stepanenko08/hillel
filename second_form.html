@@ -7,28 +7,31 @@
     <title>Second form</title>
 </head>
 <body>
-    <form class="parent-box" action="https://fom.in.ua/echo" method="GET">
-        <div class="input-box">
-            <label for="name">Name:</label>
+    <div class="container">
+        <form class="parent-box" action="https://fom.in.ua/echo" method="GET">
+            <div class="input-box">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" name="name" id="name">  
+            </div>
             <br>
-            <input type="text" name="name" id="name">  
-        </div>
-        <br>
-        <div class="input-box">
-            <label for="email">Email:</label>
+            <div class="input-box">
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email">  
+            </div>
             <br>
-            <input type="text" name="email" id="email">  
-        </div>
-        <br>
-        <div class="input-box">
-            <label for="message">Message:</label>
+            <div class="input-box">
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="" id="" cols="52" rows="3"></textarea>
+            </div>
             <br>
-            <textarea name="" id="" cols="52" rows="3"></textarea>
-        </div>
+            <input class="submit-btn" type="submit" name="submit" id="submit" value="Submit">
+        </form>
         <br>
-        <input class="submit-btn" type="submit" name="submit" id="submit" value="Submit">
-    </form>
-    <br>
-    <a href="index.html">Back to main forms</a>
+        <a href="index.html">Back to main forms</a>
+    </div>
+
 </body>
 </html>

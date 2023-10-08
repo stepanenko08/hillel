@@ -39,6 +39,10 @@ textarea {
     width: 400px;
 } */
 
-/* .parent-box {
-    width: 80vh;
-} */
+.parent-box {
+    width: 80%;
+}
+
+.container {
+    width: 80vw;
+}
