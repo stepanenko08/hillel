@@ -15,7 +15,7 @@ form {
 
 input {
     border: #c9c9c9 1px solid;
-    /* width: 80%; */
+    width: 100%;
     /* width: 400px; */
     /* height: 25px; */
     border-radius: 2px;
@@ -25,7 +25,7 @@ textarea {
     border: #c9c9c9 1px solid;
     border-radius: 2px;
     resize: none;
-    /* width: 80%; */
+    width: 100%;
 }
 
 .submit-btn {
