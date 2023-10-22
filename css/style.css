@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('fonts/TimesNewerRoman-BoldItalic.otf');
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('fonts/TimesNewerRoman-Bold.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.times_new_roman {
+    font-family: 'Times New Roman';
+}
+
+.thumbnail {
+    width: 200px;
+    height: 100%;
+    background-color: #55595c;
+}
+
+footer {
+    background-color: #f9f9f9;
+}

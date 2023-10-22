@@ -3,9 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog Template</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header id="top">
+            <div class="row justify-content-between border-bottom">
+                <div class="col-4 d-flex align-items-center">
+                    <a class="link-secondary" href="#">Subscribe</a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="times_new_roman link-underline-opacity-0-hover text-dark fs-1 fw-semibold link-underline-dark" href="#">Large</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a href="#"><svg  class="text-secondary me-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg></a>
+                    <a href="#" class="btn btn btn-outline-secondary">Sign up</a>
+                </div>
+            </div>
+        </header>
+        <nav class="d-flex justify-content-between mb-2 navbar-nav-scroll">
+            <a href="#" class="p-2 link-secondary">World</a>
+            <a href="#" class="p-2 link-secondary">U.S.</a>
+            <a href="#" class="p-2 link-secondary">Technology</a>
+            <a href="#" class="p-2 link-secondary">Design</a>
+            <a href="#" class="p-2 link-secondary">Culture</a>
+            <a href="#" class="p-2 link-secondary">Business</a>
+            <a href="#" class="p-2 link-secondary">Politics</a>
+            <a href="#" class="p-2 link-secondary">Opinion</a>
+            <a href="#" class="p-2 link-secondary">Science</a>
+            <a href="#" class="p-2 link-secondary">Health</a>
+            <a href="#" class="p-2 link-secondary">Style</a>
+            <a href="#" class="p-2 link-secondary">Travel</a>
+        </nav>
+    </div>
+    <main class="container">
+        <section class="bg-dark rounded p-5 mb-4">
+            <article class="col-md-6">
+                <h1 class="times_new_roman fw-bold fst-italic fs-1 text-light">Title of a longer featured blog post</h1>
+                <p class="text-light fs-4">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+                <a class="text-light fw-bold fs-5" href="#">Continue reading...</a>
+            </article>
+        </section>
+        <section class="row">
+            <div class="col-md-6">
+                <div class="row border rounded d-flex justify-content-between g-0 flex-md-row mb-4 shadow-sm">
+                    <div class="col p-4 d-flex flex-column">
+                        <h3 class="text-primary mb-2 fs-6 fw-bold">World</h3>
+                        <h2 class="times_new_roman fw-bold mb-0">Featured post</h2>
+                        <h5 class="fs-6 text-secondary">Nov 12</h5>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="thumbnail rounded-end d-flex justify-content-center align-items-center"><h2 class="text-white fw-normal fs-5">Thumbnail</h2></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row border rounded d-flex justify-content-between g-0 flex-md-row mb-4 shadow-sm">
+                    <div class="col p-4 d-flex flex-column">
+                        <h3 class="text-success mb-2 fs-6 fw-bold">Design</h3>
+                        <h2 class="times_new_roman fw-bold mb-0">Post title</h2>
+                        <h5 class="fs-6 text-secondary">Nov 11</h5>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <div class="thumbnail rounded-end d-flex justify-content-center align-items-center"><h2 class="text-white fw-normal fs-5">Thumbnail</h2></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="row">
+            <div class="col-md-8">
+                <h3 class="fst-italic pb-4 border-bottom mb-4 times_new_roman fw-bold">From the Firehose</h3>
+                <article>
+                    <h2 class="fs-1 times_new_roman fw-bold">Sample blog post</h2>
+                    <h3 class="fs-6 fw-normal text-secondary">January 1, 2021 by <a href="#">Mark</a></h3>
+                    <p class="mt-4 mb-3 pb-3 border-bottom border-dark-subtle">This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3 class="fs-1 times_new_roman fw-semibold mb-2">Blockquotes</h3>
+                    <p class="mb-4">This is an example blockquote in action:</p>
+                    <h4 class="fs-5 fw-normal mb-4">Quoted text goes here.</h4>
+                    <p class="mb-4">This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                    <h3 class="fs-2 times_new_roman fw-semibold mb-2">Example lists</h3>
+                    <p class="mb-4">This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:</p>
+                    <ul class="mb-2">
+                        <li>First list item</li>
+                        <li>Second list item with a longer description</li>
+                        <li>Third list item to close it out</li>
+                    </ul>
+                    <p class="mb-2">And this is an ordered list:</p>
+                    <ol class="mb-2">
+                        <li>First list item</li>
+                        <li>Second list item with a longer description</li>
+                        <li>Third list item to close it out</li>
+                    </ol>
+                    <p class="mb-3">And this is a definition list:</p>
+                    <h4 class="fw-bold mb-0 fs-6">HyperText Markup Language (HTML)</h4>
+                    <p class="mb-2">The language used to describe and define the content of a Web page</p>
+                    <h4 class="fw-bold mb-0 fs-6">Cascading Style Sheets (CSS)</h4>
+                    <p class="mb-2">Used to describe the appearance of Web content</p>
+                    <h4 class="fw-bold mb-0 fs-6">JavaScript (JS)</h4>
+                    <p class="mb-3">The programming language used to build advanced Web sites and applications</p>
+                    <h3 class="fs-1 times_new_roman fw-semibold mb-2">Inline HTML elements</h3>
+                    <p class="mb-4">HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"> Mozilla Developer Network.</a></p>
+                    <ul>
+                        <li><strong>To bold text</strong>, use <span class="text-danger">&lt;strong&gt;</span>.</li>
+                        <li><em>To italicize text</em>, use <span class="text-danger">&lt;em&gt;</span></li>
+                        <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <span class="text-danger">&lt;abbr&gt;</span> with an optional <span class="text-danger">title</span> attribute for the full phrase.</li>
+                        <li>Citations, like — <cite>Mark Otto</cite>, should use <span class="text-danger">&lt;cite&gt;</span>.</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <div class="position-sticky top-0">
+                    <div class="bg-light rounded p-4 mb-3">
+                        <h3 class="fst-italic times_new_roman fw-bold">About</h3>
+                        <p>Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="fst-italic times_new_roman fw-bold">Archives</h3>
+                        <ol class="list-unstyled">
+                            <li><a href="#" class="">March 2021</a></li>
+                            <li><a href="#" class="">February 2021</a></li>
+                            <li><a href="#" class="">January 2021</a></li>
+                            <li><a href="#" class="">December 2020</a></li>
+                            <li><a href="#" class="">November 2020</a></li>
+                            <li><a href="#" class="">October 2020</a></li>
+                            <li><a href="#" class="">September 2020</a></li>
+                            <li><a href="#" class="">August 2020</a></li>
+                            <li><a href="#" class="">July 2020</a></li>
+                            <li><a href="#" class="">June 2020</a></li>
+                            <li><a href="#" class="">May 2020</a></li>
+                            <li><a href="#" class="">April 2020</a></li>
+                        </ol>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="fst-italic times_new_roman fw-bold">Elsewhere</h3>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-4 border-top">
+        <p class="text-center text-secondary">Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p class="text-center mb-0"><a href="#top">Back to up</a></p>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
