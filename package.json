@@ -1,0 +1,27 @@
+{
+  "name": "hillel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepanenko08/hillel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepanenko08/hillel/issues"
+  },
+  "homepage": "https://github.com/stepanenko08/hillel#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  },
+  "devDependencies": {
+    "gulp-purgecss": "^5.0.0",
+    "sass": "^1.69.4"
+  }
+}

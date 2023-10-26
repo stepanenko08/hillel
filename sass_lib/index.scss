@@ -1,5 +1,6 @@
 // variables & functions
 @import "variables";
+@import "breakpoints";
 
 @import "utils";
 
@@ -11,5 +12,7 @@
 @import "colors";
 
 // components (cards, btn, nav)
-
 @import "components/button";
+
+@import "spaces";
+
