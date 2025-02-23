@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+header {
+  padding-top: 79px;
+  padding-bottom: 141px;
+  padding-left: 299px;
+  background: #EEEFF1;
+  min-width: 100%;
+  max-width: 1920px;
+  height: 700px;
+}
+header h1 {
+  margin-top: 101px;
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 48px;
+}
+header h5 {
+  font-size: 16px;
+  color: #727272;
+  font-weight: 400;
+  margin-bottom: 65px;
+}
+header a.btn {
+  display: inline-block;
+  background-color: #34547A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 225px;
+  height: 65px;
+  text-decoration: none;
+}
+header a.btn p {
+  color: #fff;
+  letter-spacing: 10%;
+  line-height: 26px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+}
+nav a {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+nav #active {
+  color: #34547A;
+  font-weight: 500;
+}
+
+.about {
+  height: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+}
+.about p {
+  font-size: 16px;
+  color: #727272;
+  font-weight: 400;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.proj {
+  height: 230px;
+  background-color: #34547A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.proj-wrapper {
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.proj-wrapper img {
+  float: left;
+}
+
+.proj-wrapper > img {
+  float: left;
+}
